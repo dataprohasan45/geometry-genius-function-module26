@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Project overview </title>
+</head>
+<body>
+    <h1>Welcome to my project with Tailwind , Daisy UI , Css and Javascript function</h1>
+    <h3 id="store-data">Store my Project</h3>
+    <br>
+    <br>
+    <button id="btn" onclick="console.log('Welcome project')">Send your attend</button>
+    <script>
+        const senddata =  document.getElementById('btn').addEventListener('click' , function(){
+            const clickdData = document.getElementById('store-data');
+            clickdData.innerText = 'hey friends';
+            senddata.appendChild(clickdData);
+        })
+    </script>
+</body>
+</html>
